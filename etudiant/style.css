@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.bg{
+    background-image: url('../images/A.jpg');
+    background-position: center;
+}
+#ent_logo {
+  height: 45px;
+}
+
+nav img {
+  height: 13px;
+}
+nav {
+  background-color: rgba(159, 155, 155, 0.308);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li a{
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+  border-bottom: 2px;
+  transition: all 0.2s ease-in-out;
+}
+nav li{
+  margin: 12px 2px;
+}
+li a:hover {
+  border-bottom: solid #3174b8;
+  background-color: rgba(98, 96, 96, 0.199);
+}
+.connexion-bouton{
+  color: white;
+  background-color: #3174b8;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 12px;
+}
+.connexion-bouton:hover{
+  opacity: 0.8;
+}
+nav p img{
+  height: 16px;
+  width: auto;
+  
+}
+nav div{
+display: flex;
+gap: 15px;
+align-items: center;
+}
+nav div a:first-of-type{
+  letter-spacing: 1px;
+  border-bottom: dotted 1px;
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+  Border-bottom: dotted 1px;
+  transition: all 0.2s ease-in-out;
+}
+nav div a:first-of-type:hover{
+  padding-bottom: 5px;
+}
+main{
+padding-top: 40px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding-bottom: 180px;
+}
+main div{
+  text-align: center;
+}
+main h3 {
+  font-size: 35px;
+}
+main p {
+  font-size: 18px;
+  margin: 10px 10px 20px 0;
+}
+main img{
+  height: 400px;
+}
+
+
+
+footer{
+ /* background-image: url('../images/D.jpg');
+  background-position: center;*/
+  background-color: rgba(19, 109, 169, 0.582);
+  padding-bottom:30px;
+}
+
+.footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.contacter-nous{
+  height: 60px;
+  text-align: center;
+}
+H2{
+  border-top: 3px double;
+  border-bottom: 3px double;
+  padding: 10px 0;
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+input , textarea {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input:focus , textarea:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 5px #080808;
+}
+.social img{
+  height: 30px;
+}
+.info img{
+  height: 33px;
+}
+.info p{
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.social{
+  display: flex;
+  align-self: flex-start;
+  padding-right: 20px;
+  align-items: center;
+  gap: 20px;
+
+}

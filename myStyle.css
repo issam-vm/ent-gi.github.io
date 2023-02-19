@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.bg{
+    background-image: url('../images/A.jpg');
+    background-position: center;
+}
+
+#ent_logo {
+    height: 45px;
+}
+
+ul img{
+    height: 13px;
+}
+
+nav {
+    background-color: rgba(159, 155, 155, 0.308);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+nav li{
+  margin: 12px 2px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    border-bottom: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+li a:hover {
+    border-bottom: solid #3174b8;
+    background-color: rgba(98, 96, 96, 0.199);
+}
+.connexion-bouton{
+    color: white;
+    background-color: #3174b8;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 12px;
+}
+.connexion-bouton:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.home{
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 270px;
+}
+.home h1 {
+    font-size: 52px;
+    text-align: center;
+}
+
+.home p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login {
+    display: none;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.button{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+  footer{
+     background-color: rgba(19, 109, 169, 0.582);
+     padding-bottom:30px;
+   }
+   
+   .footer-container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 50px;
+   }
+   .contacter-nous{
+     height: 60px;
+     text-align: center;
+   }
+   H2{
+     border-top: 3px double;
+     border-bottom: 3px double;
+     padding: 10px 0;
+     
+   }
+   
+   footer form{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     padding-left: 20px;
+   }
+   input[type="submit"] {
+    background-color: #3174b8;
+     color: white;
+   }
+   input[type="submit"]:hover {
+    opacity: 0.8;
+   }
+   input , textarea {
+     font-size: 16px;
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+   }
+   input:not(input[type="button"]):focus , textarea:focus {
+     outline: none;
+     border-color: #000000;
+     box-shadow: 0 0 5px #080808;
+   }
+   .social img{
+     height: 30px;
+   }
+   .info img{
+     height: 33px;
+   }
+   .info p{
+     display: flex;
+     gap: 10px;
+     padding-left: 20px;
+     padding-bottom: 30px;
+   }
+   .social{
+     display: flex;
+     align-self: flex-start;
+     padding-right: 20px;
+     align-items: center;
+     gap: 20px;
+   
+   }
+
+
+
+
+
+
+
+
